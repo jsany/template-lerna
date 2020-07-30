@@ -1,0 +1,26 @@
+{
+  "command": {
+    "bootstrap": {
+      "hoist": true
+    },
+    "create": {
+      "access": "public"
+    },
+    "version": {
+      "allowBranch": ["main"],
+      "conventionalCommits": true,
+      "createRelease": "github",
+      "message": "Release: %s :tada: :rocket:"
+    },
+    "publish": {
+      "verifyAccess": false,
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "ignoreChanges": [
+    "**/*.md"
+  ],
+  "version": "independent"
+}

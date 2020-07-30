@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "lib": [
+      "ES5",
+      "ES6",
+      "DOM",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2016.Array.Include",
+      "ES2017.String"
+    ],
+    "outDir": "lib",
+    "strict": true,
+    "moduleResolution": "node",
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {},
+    "pretty": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": ["./typings/index.d.ts"],
+  "exclude": ["node_modules", "**/test/*", "**/*.spec.ts", "lib", "es", "dist"]
+}
