@@ -8,6 +8,7 @@
 !.aoneci.yml
 !.editorconfig
 !.github
+!.gitkeep
 
 # Logs
 logs
