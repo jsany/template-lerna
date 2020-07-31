@@ -259,3 +259,7 @@ $ lerna publish
   ```sh
   $ lerna publish --yes
   ```
+
+Give a ⭐️ if this project helped you!
+
+__Generate By [@jsany/cli](https://github.com/jsany/any/blob/main/packages/cli/README.md), template from [template-lerna](https://github.com/jsany/template-lerna)__
